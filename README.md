@@ -59,12 +59,18 @@ Ensure the following tools are installed:
 5. **API Access**:
    The backend API will be accessible at `http://localhost:4000`.
 
-#### Key Endpoints:
-- `GET /blocks`: Fetch all blocks.
-- `POST /submissions`: Submit selected blocks.
-- `GET /blocks/generate`: generate dummy data for blocks.
+      #### Key Endpoints:
+      - `GET /blocks`: Fetch all blocks.
+      - `POST /submissions`: Submit selected blocks.
+      - `GET /blocks/generate`: generate dummy data for blocks.
 6. **Generate Data**:
-  you can generate data for new MongoDb using postman `GET http://localhost:4000/blocks/generate` to fill the dummy data in database
+  you can generate data for new MongoDb to fill the dummy data in database
+     - **Using postman**:
+       `GET http://localhost:4000/blocks/generate` 
+     - **using termenal**:
+       ```bash
+        curl --location 'http://localhost:4000/blocks/generate'
+        ```
 ---
 
 ### 2. Frontend (Next.js)
