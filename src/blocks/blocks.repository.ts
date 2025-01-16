@@ -22,4 +22,11 @@ export class BlocksRepository {
     const blocks = await this.blockModel.find({ id: { $in: blockIds } }).exec();
     return blocks.length === blockIds.length;
   }
+  async countBlocks(): Promise<number> {
+    return this.blockModel.countDocuments().exec();
+  }
+
+  async insertBlocks(blocks: Partial<Block[]>): Promise<void> {
+    await this.blockModel.insertMany(blocks);
+  }
 }

@@ -10,4 +10,9 @@ export class BlocksController {
   async getBlocks() {
     return this.blocksService.getBlocks();
   }
+
+  @Get('/generate')
+  async generateBlocks() {
+    return this.blocksService.generateBlocks();
+  }
 }
